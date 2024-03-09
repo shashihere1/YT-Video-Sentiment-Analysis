@@ -44,7 +44,7 @@ def analyze_sentiment(text):# This is a function that takes a text input (commen
 # <<<<The function then returns "Positive", "Negative", or "Neutral" based on the sentiment score.
 
 if __name__ == "__main__":# This is a common Python idiom that allows the code block to be executed when the script is run directly (not imported as a module).
-    video_id = "uwLWf0rEL18"  # Replace with the ID of the YouTube video. In the YT video link check the value v=" "; that is your video_id
+    video_id = "Your YT video ID"  # Replace with the ID of the YouTube video. In the YT video link check the value v=" "; that is your video_id
     comments = get_video_comments(video_id)# This calls the get_video_comments function with the specified video_id to retrieve the comments for that video.
 
     print("Analyzing sentiment of comments...")
