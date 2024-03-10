@@ -18,7 +18,7 @@ def get_sentiment(comment):
 # Function to fetch comments from YouTube
 def get_video_comments(video_id):
     # Replace 'YOUR_API_KEY' with your actual YouTube API key
-    youtube = build('youtube', 'v3', developerKey='YOUR_API_KEY')
+    youtube = build('youtube', 'v3', developerKey='AIzaSyD9UbMLnzgNsyfTODak1V0UtWaJlZsc6dE')
     comments = []
     request = youtube.commentThreads().list(
         part='snippet',
