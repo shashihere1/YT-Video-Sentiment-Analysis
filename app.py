@@ -46,7 +46,7 @@ def index():
         df['Sentiment'] = df['Comment'].apply(get_sentiment)
         sentiment_counts = df['Sentiment'].value_counts().to_dict()
         return render_template('result.html', sentiment_counts=sentiment_counts)
-    return render_template('sentiment.html')
+    return render_template('index.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
