@@ -48,3 +48,5 @@ def index():
         return render_template('result.html', sentiment_counts=sentiment_counts)
     return render_template('sentiment.html')
 
+if __name__ == '__main__':
+    app.run(debug=True)
