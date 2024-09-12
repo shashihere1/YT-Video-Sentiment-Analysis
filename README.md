@@ -30,7 +30,9 @@ This project can be extended for further functionality, such as visualizing sent
 
 ###The front-end is basic because this was a machine learning project.
 
+![Screenshot 2024-09-12 210408](https://github.com/user-attachments/assets/b2da178c-0948-43e5-a267-5d35775165e6)
 
-![Screenshot 2024-09-12 210408](https://github.com/user-attachments/assets/f06b2aa7-65c6-4665-a1f2-8bfc3b14c3a9)
+
+
 
 ![Screenshot 2024-09-12 210844](https://github.com/user-attachments/assets/c2f082d6-cd9a-45e7-ad8d-52b05398c7f9)
